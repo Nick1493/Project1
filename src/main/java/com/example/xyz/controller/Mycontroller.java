@@ -25,7 +25,7 @@ public class Mycontroller {
 	  
 	  }
 	
-	@GetMapping(path="/all")
+	@GetMapping(path="/show")
 	public  Iterable<Student> getAllUsers() {
 		// This returns a JSON or XML with the users
 		return SS.getAll();
